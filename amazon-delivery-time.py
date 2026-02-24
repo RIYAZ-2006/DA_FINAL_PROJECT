@@ -27,7 +27,7 @@ weather_conditions = np.random.choice(['Clear', 'Cloudy', 'Rain', 'Snow'], n_sam
 weekend = np.random.choice([0, 1], n_samples, p=[0.7, 0.3])  # Is it weekend?
 priority_shipping = np.random.choice([0, 1], n_samples, p=[0.8, 0.2])  # Priority shipping?
 
-# Target: Delivery time in hours
+#Target: Delivery time in hours
 # Base delivery time: 1 hour + 0.1 hour per mile
 base_time = 1 + 0.1 * distances
 
